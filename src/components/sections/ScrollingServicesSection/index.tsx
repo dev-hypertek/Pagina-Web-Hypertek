@@ -30,7 +30,7 @@ const ScrollingServicesSection = () => {
               WebkitMaskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
             }}
           >
-            <div className="flex items-center animate-scroll">
+            <div className="flex items-center animate-scroll group-hover:animate-pause">
               {scrollingServices.map((service, index) => (
                 <RailServiceItem
                   key={`${service.id}-${index}`}

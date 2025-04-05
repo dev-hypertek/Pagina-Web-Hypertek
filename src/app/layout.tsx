@@ -1,12 +1,25 @@
-import type { Metadata } from "next";
+import { Metadata } from 'next';
 import "./globals.css";
-import { ClientBody } from "./ClientBody";
 
 export const metadata: Metadata = {
-  title: "HyperTek AI - Escalamos tu negocio con IA sin perder el toque humano",
-  description: "Automatiza la atención al cliente y las ventas de tu negocio con IA, Landing Pages e Integraciones. Revolucione sus tareas, reduzca los errores y aumente la eficacia con soluciones personalizadas.",
-  icons: {
-    icon: "/favicon.ico",
+  title: 'Hypertek - Innovación a medida con IA para su negocio',
+  description: 'Soluciones de Inteligencia Artificial personalizadas que automatizan procesos y generan resultados tangibles para su empresa.',
+  keywords: 'hypertek, inteligencia artificial, IA, automatización de procesos, chatbots conversacionales, analítica de datos',
+  authors: [{ name: 'Hypertek Colombia' }],
+  viewport: 'width=device-width, initial-scale=1',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'es_CO',
+    url: 'https://www.hypertek.com.co/',
+    title: 'Hypertek - Innovación a medida con IA para su negocio',
+    description: 'Soluciones de Inteligencia Artificial personalizadas que automatizan procesos y generan resultados tangibles.',
+    siteName: 'Hypertek',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hypertek - Innovación a medida con IA para su negocio',
+    description: 'Soluciones de Inteligencia Artificial personalizadas que automatizan procesos y generan resultados tangibles.',
   },
 };
 
@@ -16,14 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="dark scroll-smooth">
-      <ClientBody>
-        <body className="bg-gapfixers-dark min-h-screen">
-          <div className="fixed inset-0 bg-gradient-to-b from-gapfixers-dark via-gapfixers-dark to-black/80 pointer-events-none -z-10" />
-          <div className="fixed inset-0 bg-[url('/noise.png')] opacity-5 pointer-events-none -z-10" />
-          {children}
-        </body>
-      </ClientBody>
+    <html lang="es">
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

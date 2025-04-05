@@ -8,10 +8,33 @@ const HeroSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch(error => {
-        console.error("Error playing background video:", error);
-      });
+    let videoElement = videoRef.current;
+    
+    // Aplicar lazy loading al video
+    if (videoElement) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              videoElement?.play().catch(error => {
+                console.error("Error playing background video:", error);
+              });
+              observer.unobserve(videoElement as HTMLVideoElement);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+      
+      observer.observe(videoElement);
+      
+      return () => {
+        if (videoElement) {
+          observer.unobserve(videoElement);
+          videoElement.pause();
+          videoElement.src = '';
+        }
+      };
     }
   }, []);
 

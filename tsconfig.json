@@ -25,7 +25,14 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@data/*": ["./src/data/*"],
+      "@types/*": ["./src/types/*"],
+      "@sections/*": ["./src/components/sections/*"],
+      "@common/*": ["./src/components/common/*"],
+      "@layout/*": ["./src/components/layout/*"]
     }
   },
   "include": [

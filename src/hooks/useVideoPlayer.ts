@@ -20,6 +20,17 @@ export const useVideoPlayer = () => {
     }
   }, []);
 
+  // Limpiar referencias cuando el componente se desmonta para evitar memory leaks
+  useEffect(() => {
+    return () => {
+      if (videoRef.current) {
+        videoRef.current.pause();
+        videoRef.current.src = '';
+        setIsPlaying(false);
+      }
+    };
+  }, []);
+
   return { 
     videoRef, 
     isPlaying, 

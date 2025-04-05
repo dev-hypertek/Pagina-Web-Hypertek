@@ -17,6 +17,8 @@ const RailServiceItem = ({ imageUrl, altText, text }: RailServiceItemProps) => {
           className="object-contain"
           sizes="(max-width: 768px) 15vw, 10vw"
           title={altText}
+          loading="lazy"
+          priority={false}
         />
       </div>
       {/* Texto debajo de la imagen */}

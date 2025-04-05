@@ -140,7 +140,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-33.33%);
+    transform: translateX(-50%);
   }
 }
 
@@ -148,9 +148,5 @@
   display: inline-flex !important;
   flex-wrap: nowrap !important;
   width: max-content !important;
-  animation: scroll 40s linear infinite;
-}
-
-.group:hover .pause-animation {
-  animation-play-state: paused;
+  will-change: transform; /* Mejora rendimiento con GPU */
 }
