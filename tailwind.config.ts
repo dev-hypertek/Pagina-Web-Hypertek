@@ -52,7 +52,16 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom colors based on Gapfixers site
+        // Custom colors based on Hypertek site
+        hypertek: {
+          dark: "#19191a",
+          green: "#bbd735",
+          lightgreen: "#e6f4cc",
+          lightgray: "#f6f7f6",
+          mediumgray: "#93999b",
+          darkgray: "#333333"
+        },
+        // Mantener colores de Gapfixers para compatibilidad
         gapfixers: {
           dark: "#0f0818",
           purple: "#ac1f7c",
