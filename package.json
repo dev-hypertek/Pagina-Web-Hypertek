@@ -9,8 +9,9 @@
     "start": "next start",
     "lint": "bunx biome lint --write && bunx tsc --noEmit",
     "format": "bunx biome format --write",
-    "cleanup": "chmod +x ./src/scripts/cleanup.sh && ./src/scripts/cleanup.sh",
-    "clean-temp": "chmod +x ./src/scripts/clean-temp.sh && ./src/scripts/clean-temp.sh",
+    "cleanup": "node cleanup.js",
+    "optimize": "node optimize.js",
+    "prebuild": "npm run cleanup",
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
