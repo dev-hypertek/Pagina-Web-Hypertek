@@ -85,21 +85,27 @@ export const FaqSection = () => {
   const faqs = [
     {
       id: "faq-1",
-      question: "¿Cómo la IA puede ayudar a mi negocio?",
+      question: "¿Por qué elegir soluciones de IA personalizadas?",
       answer:
-        "Simple, desarrollamos una solución que haga lo mismo que están haciendo ahora pero 24/7 y con una performance mucho más alta.",
+        "Las soluciones personalizadas de IA se adaptan perfectamente a sus procesos empresariales específicos, maximizando la eficiencia y el retorno de inversión. A diferencia de productos genéricos, nuestras soluciones a medida abordan exactamente sus desafíos particulares, se integran con sus sistemas existentes y evolucionan con su negocio.",
     },
     {
       id: "faq-2",
-      question: "¿Cómo aseguran la privacidad de datos?",
+      question: "¿Cómo se implementa una solución de IA en mi empresa?",
       answer:
-        "Explicado de manera muy simple, jamás vamos a compartirle ningún dato confidencial de tu negocio a un AI Agent, con eso logramos evitar al 100% cualquier problema de privacidad.",
+        "Nuestro enfoque es integral: comenzamos con una evaluación detallada de sus necesidades y procesos, diseñamos la solución personalizada, desarrollamos e implementamos los sistemas, realizamos pruebas exhaustivas, y proporcionamos capacitación. Además, ofrecemos soporte continuo y mejoras basadas en el rendimiento y sus comentarios.",
     },
     {
       id: "faq-3",
-      question: "¿Cuál es la inversión requerida?",
+      question: "¿Qué resultados puedo esperar de las soluciones de Hypertek?",
       answer:
-        "Esto dependería de tus necesidades, objetivos y volumen de negocio, pero para que tengas una idea, pueden ir desde 1000 a 3000 USD.",
+        "Nuestros clientes experimentan reducción significativa en errores operativos, aumento en la velocidad de los procesos, mejor toma de decisiones basada en datos, mayor satisfacción del cliente y ventaja competitiva en su industria. Establecemos métricas claras desde el inicio para demostrar el impacto real de nuestras soluciones en su negocio.",
+    },
+    {
+      id: "faq-4",
+      question: "¿Cuánto tiempo toma implementar una solución de IA personalizada?",
+      answer:
+        "El tiempo de implementación varía según la complejidad del proyecto, pero típicamente oscila entre 6-12 semanas desde la evaluación inicial hasta la implementación completa. Trabajamos con un enfoque ágil que permite ver resultados incrementales durante el proceso de desarrollo.",
     },
   ];
 
@@ -110,7 +116,7 @@ export const FaqSection = () => {
     <div className="text-center mb-12">
       <span className="inline-block text-[#9dcc30] font-medium mb-3">FAQ</span>
       <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-        Las respuestas a tus preguntas están aquí
+      Preguntas frecuentes sobre nuestras soluciones
       </h2>
     </div>
     
@@ -154,9 +160,8 @@ export const FaqSection = () => {
             Datos de contacto
           </h2>
           <ul className="space-y-2 max-w-xs mx-auto">
-            <ContactItem icon={<PhoneIcon />} text="(57) 318 691 72 63" />
-            <ContactItem icon={<PhoneIcon />} text="(57) 318 691 72 63" />
-            <ContactItem icon={<EmailIcon />} text="hola@proyectow.co" />
+            <ContactItem icon={<PhoneIcon />} text="+57 302 323 5255" />
+            <ContactItem icon={<EmailIcon />} text="contacto@hypertek.com" />
             <ContactItem icon={<LocationIcon />} text="Bogotá, Colombia." />
           </ul>
         </div>

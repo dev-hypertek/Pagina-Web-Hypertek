@@ -45,15 +45,15 @@ export const HeroSection = () => {
             height={16}
             className="h-4 w-4"
           />
-          <span className="text-gray-400 text-sm">Miles de negocios ya están aplicando IA para agilizar su trabajo y lograr más con menos esfuerzo.</span>
+          <span className="text-gray-400 text-sm">Soluciones de IA empresariales personalizadas para transformar su empresa.</span>
           <Link
-            href="https://youtu.be/d2smz_1L2_0?list=RD44pt8w67S8I"
+            href="https://www.hypertek.com.co/#contact"
             className="text-sm font-medium hover:opacity-80"
             style={{ color: "#bbd735" }}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Empieza hoy
+            Solicite una demo
           </Link>
         </div>
       </div>
@@ -64,11 +64,11 @@ export const HeroSection = () => {
         <div className="text-sm text-transparent mb-2 select-none">&nbsp;</div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight mb-6">
-          Escalamos tu negocio con IA sin perder el toque humano
+          Innovación a medida: Potenciamos su negocio con IA personalizada
         </h1>
 
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-          Te ayudamos a recuperar tu tiempo, mejorar la satisfacción de tus clientes y potenciar tus ingresos con soluciones a medida.
+          Identificamos, diseñamos e implementamos soluciones que automatizan sus procesos más complejos y generan resultados tangibles.
         </p>
 
         {/* Empty space where button was */}

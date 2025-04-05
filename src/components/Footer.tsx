@@ -23,7 +23,7 @@ export const Footer = () => {
           </div>
 
           <p className="text-gray-500 text-sm mt-2 md:mt-0">
-            &copy; {currentYear} All rights reserved.
+            &copy; {currentYear} Hypertek - Innovación a medida
           </p>
 
           <div className="flex space-x-8">
@@ -40,7 +40,7 @@ export const Footer = () => {
               FAQ
             </Link>
             <Link
-              href="https://youtu.be/d2smz_1L2_0?list=RD44pt8w67S8I"
+              href="https://www.hypertek.com.co/#contact"
               className="text-gray-300 hover:text-gapfixers-purple transition-colors"
               target="_blank"
               rel="noopener noreferrer"

@@ -42,15 +42,17 @@ const RailServiceItem = ({ imageUrl, altText, text }: RailServiceItemProps) => {
 
 // --- Componente Principal de la Sección Scrolling ---
 export const ScrollingServicesSection = () => {
-  // --- Ajustado a 6 elementos base ---
+  // --- Servicios alineados con el brochure ---
   const baseServices: RailService[] = [
-    { id: "rs1", imageUrl: "/img/db.png", altText: "Logo Base de Datos", text: "Gestión/Administración de Bases de Datos" },
-    { id: "rs2", imageUrl: "/img/daen.png", altText: "Logo Servidor", text: "Ingeniería de Datos y servicios en la Nube" },
-    { id: "rs3", imageUrl: "/img/bi.png", altText: "Logo Nube", text: "Análisis de Datos y Business Intelligence" },
-    { id: "rs4", imageUrl: "/img/ai.png", altText: "Logo Seguridad", text: "Implementación de Soluciones de IA" },
-    { id: "rs5", imageUrl: "/img/datgor.png", altText: "Logo Backup", text: "Gobernanza y Calidad de Datos" },
-    { id: "rs6", imageUrl: "/img/cai.png", altText: "Logo Monitorización", text: "Consultoría en Inteligencia Artificial" },
-    // Si necesitas más para un loop suave en pantallas anchas aunque el contenedor sea estrecho, añade aquí.
+    { id: "rs1", imageUrl: "/img/ai.png", altText: "Logo IA", text: "Desarrollo de IA a medida" },
+    { id: "rs2", imageUrl: "/img/daen.png", altText: "Logo Automatización", text: "Automatización Inteligente de procesos" },
+    { id: "rs3", imageUrl: "/img/bi.png", altText: "Logo Chatbot", text: "Chatbots de voz y conversacionales" },
+    { id: "rs4", imageUrl: "/img/db.png", altText: "Logo Análisis", text: "Analítica de datos automatizada" },
+    { id: "rs5", imageUrl: "/img/datgor.png", altText: "Logo Reportes", text: "Chatbots de generación de reportes" },
+    { id: "rs6", imageUrl: "/img/cai.png", altText: "Logo Consultoría", text: "Consultoría en Inteligencia Artificial" },
+    // Servicios adicionales basados en el brochure
+    { id: "rs7", imageUrl: "/img/bi.png", altText: "Logo Integración", text: "Integración perfecta con sistemas existentes" },
+    { id: "rs8", imageUrl: "/img/daen.png", altText: "Logo Métricas", text: "Métricas claras y resultados cuantificables" },
   ];
 
   // Duplicar los servicios (ahora 12 en total)
@@ -66,10 +68,10 @@ export const ScrollingServicesSection = () => {
         {/* Texto introductorio */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl mb-4">
-            Nuestros Servicios y Tecnologías
+            Nuestras Soluciones y Especialidades
           </h2>
           <p className="mx-auto max-w-2xl text-gray-600">
-            Impulsamos tu negocio con soluciones robustas y eficientes.
+            Combinamos experiencia técnica avanzada con comprensión profunda de procesos empresariales.
           </p>
         </div>
 
