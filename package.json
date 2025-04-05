@@ -10,6 +10,7 @@
     "lint": "bunx biome lint --write && bunx tsc --noEmit",
     "format": "bunx biome format --write",
     "cleanup": "chmod +x ./src/scripts/cleanup.sh && ./src/scripts/cleanup.sh",
+    "clean-temp": "chmod +x ./src/scripts/clean-temp.sh && ./src/scripts/clean-temp.sh",
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
