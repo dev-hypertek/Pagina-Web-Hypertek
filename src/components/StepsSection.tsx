@@ -35,23 +35,23 @@ export const StepsSection = () => {
   const steps = [
     {
       number: "01",
-      title: "Agendar Consultoría Gratis",
-      description: "En una llamada estratégica evaluaremos tu negocio y comenzaremos a diseñar tu solución personalizada."
+      title: "Evaluación de necesidades",
+      description: "Realizamos un análisis detallado de sus procesos empresariales para identificar oportunidades de automatización e integración con IA."
     },
     {
       number: "02",
-      title: "Presupuesto",
-      description: "Te preparamos un presupuesto a medida para que podamos empezar a trabajar juntos."
+      title: "Diseño personalizado",
+      description: "Desarrollamos una solución totalmente adaptada a sus necesidades específicas, estableciendo métricas claras para medir el éxito."
     },
     {
       number: "03",
-      title: "Implementación y resultados",
-      description: "Implementamos la solución en tu negocio y podrás comenzar a experimentar sus resultados."
+      title: "Implementación y pruebas",
+      description: "Integramos la solución en su infraestructura existente con disrupciones mínimas y realizamos pruebas exhaustivas para garantizar su funcionamiento óptimo."
     },
     {
       number: "04",
-      title: "Mantenimiento mensual",
-      description: "Finalmente, te brindamos actualizaciones, soporte y mantenimiento todos los meses."
+      title: "Capacitación y mejora continua",
+      description: "Proporcionamos capacitación completa a su equipo y ofrecemos soporte continuo con actualizaciones y optimizaciones basadas en el rendimiento y sus comentarios."
     },
   ];
 
@@ -87,24 +87,23 @@ export const StepsSection = () => {
           <div className="md:w-1/3">
             <div className="sticky top-24">
               <span className="inline-block text-gray-600 font-medium mb-3 px-4 py-1 rounded-full bg-gray-100">
-                Paso a paso
+                Metodología
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Cómo Empezar
+                Nuestro Proceso
               </h2>
               <p className="text-gray-700 mb-8">
-                Comienza a experimentar la satisfacción de automatizar tareas rutinarias, garantizar precisión,
-                disponibilidad 24/7 y un importante ahorro de costes.
+                Acompañamos todo el proceso desde la conceptualización hasta la implementación y mejora continua, garantizando soluciones que generan resultados tangibles.
               </p>
               
               {/* CTA Button */}
               <a 
-  href="https://youtu.be/d2smz_1L2_0?list=RD44pt8w67S8I"
+  href="https://www.hypertek.com.co/#contact"
   className="inline-flex items-center px-6 py-3 rounded-lg bg-[#9dcc30] text-white font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
   target="_blank"
   rel="noopener noreferrer"
 >
-  Agendar ahora
+  Solicitar una demostración
 </a>
             </div>
           </div>

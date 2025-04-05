@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image'; // 1. Importa el componente Image de Next.js
 
 const FloatingWhatsAppButton = () => {
-  // Reemplaza con tu número o usa variable de entorno
-  const phoneNumber = "1234567890"; // Ejemplo
+  // Número de contacto de Hypertek
+  const phoneNumber = "573023235255"; // Basado en el brochure (+57 3023235255)
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   return (

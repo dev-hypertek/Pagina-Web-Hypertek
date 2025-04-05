@@ -21,8 +21,8 @@ export const ComparisonSection = () => {
     <section className="py-20" style={{ backgroundColor: "#f6f7f6" }} id="why-us">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <span className="inline-block text-[#9dcc30] font-medium mb-3">Beneficios</span>
-          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">¿Por qué elegirnos?</h2>
+          <span className="inline-block text-[#9dcc30] font-medium mb-3">¿Por qué elegirnos?</span>
+          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">Nuestras ventajas</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -30,8 +30,8 @@ export const ComparisonSection = () => {
           <div className="rounded-xl p-8 bg-[#f3f2f3] shadow-lg border border-gray-300 transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
             <div className="flex flex-col h-full">
               <div className="pb-6 mb-6 border-b border-gray-300"> 
-                <h3 className="text-3xl font-extrabold text-black mb-2 text-center">Sin HyperTek</h3>
-                <p className="text-gray-700 text-center text-sm font-medium">Desafíos actuales</p>
+                <h3 className="text-3xl font-extrabold text-black mb-2 text-center">Sin soluciones de IA</h3>
+                <p className="text-gray-700 text-center text-sm font-medium">Desafíos empresariales actuales</p>
               </div>
               
               <ul className="space-y-5 flex-grow">
@@ -53,7 +53,7 @@ export const ComparisonSection = () => {
               
               <div className="mt-8 pt-6 border-t border-gray-300">
                 <p className="text-gray-700 text-center font-medium">
-                  Oportunidades perdidas y tiempo malgastado
+                  Ineficiencia operativa y oportunidades perdidas
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export const ComparisonSection = () => {
               
               <div className="mt-8 pt-6 border-t border-gray-200">
                 <p className="text-gray-500 text-center italic">
-                  Optimiza tu negocio y aumenta tus ventas
+                  Optimice sus procesos y transforme su negocio
                 </p>
               </div>
             </div>

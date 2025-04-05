@@ -45,11 +45,15 @@ export const AboutSection = () => {
           
           <div className="max-w-4xl mx-auto px-4">
             <p className="text-xl md:text-2xl font-bold mb-6" style={{ color: "#19191a" }}>
-              Somos seis humanos que ayudan a que las computadoras hagan el trabajo que no te gusta hacer.
+              Nos especializamos en crear soluciones de Inteligencia Artificial adaptadas específicamente a las necesidades únicas de cada cliente.
             </p>
             
+            <p className="text-lg md:text-xl leading-relaxed mb-6" style={{ color: "#19191a" }}>
+              Combinamos experiencia técnica avanzada con comprensión profunda de procesos empresariales para entregar tecnologías que generan resultados tangibles.
+            </p>
+
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: "#19191a" }}>
-              Esto generalmente involucra un problema con la comunicación con tus clientes, la información de tu empresa no está centralizada o tus procesos están desorganizados y eso te está costando tiempo y dinero.
+              Identificamos, diseñamos e implementamos soluciones que automatizan sus procesos más complejos. Nuestros sistemas inteligentes reducen errores, aceleran operaciones y escalan sin esfuerzo con el crecimiento de su negocio.
             </p>
           </div>
         </div>

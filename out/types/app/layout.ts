@@ -1,4 +1,4 @@
-// File: F:\test_test\Clone-https___gapfixersai.framer.website_ (2)\gapfixers-clone\src\app\layout.tsx
+// File: /Users/brandowleon/Pagina-Web-Hypertek/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
